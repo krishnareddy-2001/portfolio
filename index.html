@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous"
-  />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -20,12 +20,13 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#qualificaions">Skills & Certifications</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">Illa Venkateshwara Rao</div>
       <div class="hamburger-menu">
@@ -36,15 +37,20 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#qualifications" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
-        <img class="rounded-circle" src="./assets/profile-pic bw .png" alt="venkatesh profile picture"/>
+        <img
+          class="rounded-circle"
+          src="./assets/profile-pic bw .png"
+          alt="venkatesh profile picture"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -66,17 +72,18 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/itsvenkey'"
+            onclick="window.open('https://www.linkedin.com/in/itsvenkey','_blank')"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/Itsvenkey'"
+            onclick="window.open('https://github.com/Itsvenkey','_blank')"
           />
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -91,7 +98,10 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p> 3 months <br /> Android Development</p>
+              <p>
+                3 months <br />
+                Android Development
+              </p>
             </div>
             <div class="details-container">
               <img
@@ -100,26 +110,26 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Tech. Bachelor of Technology<br/>
+              <p>B.Tech. Bachelor of Technology<br /></p>
             </div>
           </div>
           <div class="text-container">
-            <p style="line-height: 2rem; font-size: large;">
-                Hello! I'm Illa Venkateshwara Rao, a tech enthusiast with a strong
-                foundation in Android development using Java. I've also nearly
-                completed Meta Backend course, adding versatility to my skill set.
-                My journey so far has involved diving into the intracacies of
-                mobile app development and exploring the backend technologies that
-                power modern applicaitons. with a passion for crafting seamless
-                and user-friendly experiences, I bring hands-on experience in
-                Android development along with insights into backed systems. My
-                technical toolkit includes proficiency in Java and a solid
-                understing of backend technologies, thanks to my ongoing learning
-                journey. As I continue to evolve in the tech landscape, my goal is
-                to leverage my skills to contribute to innovative projects that
-                make a meaningful impact. Welcome to my portfolio, where you can
-                explore my Android projects and witness my dedication to
-                continuous learning and growth.
+            <p style="line-height: 2rem; font-size: large">
+              Hello! I'm Illa Venkateshwara Rao, a tech enthusiast with a strong
+              foundation in Android development using Java. I've also nearly
+              completed Meta Backend course, adding versatility to my skill set.
+              My journey so far has involved diving into the intracacies of
+              mobile app development and exploring the backend technologies that
+              power modern applicaitons. with a passion for crafting seamless
+              and user-friendly experiences, I bring hands-on experience in
+              Android development along with insights into backed systems. My
+              technical toolkit includes proficiency in Java and a solid
+              understing of backend technologies, thanks to my ongoing learning
+              journey. As I continue to evolve in the tech landscape, my goal is
+              to leverage my skills to contribute to innovative projects that
+              make a meaningful impact. Welcome to my portfolio, where you can
+              explore my Android projects and witness my dedication to
+              continuous learning and growth.
             </p>
           </div>
         </div>
@@ -128,10 +138,13 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#qualifications'"
       />
+
     </section>
-    <section id="experience">
+
+
+    <section id="qualifications">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills & Certifications</h1>
       <div class="experience-details-container">
@@ -217,8 +230,18 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Programming in <br> Python</h3>
-                  <p><a class="certi" href="https://coursera.org/share/aad8d4a9582b4e000c06c99a9a55da19">View Certificate</a></p>
+                  <h3>
+                    Programming in <br />
+                    Python
+                  </h3>
+                  <p>
+                    <a
+                      class="certi"
+                      href="https://coursera.org/share/aad8d4a9582b4e000c06c99a9a55da19"
+                      target="_blank"
+                      >View Certificate</a
+                    >
+                  </p>
                 </div>
               </article>
               <article>
@@ -229,7 +252,14 @@
                 />
                 <div>
                   <h3>Django Web Framework</h3>
-                  <p><a class="certi" href="https://coursera.org/share/fd424804b4dea29b13919fdc478a23fb">View Certificate</a></p>
+                  <p>
+                    <a
+                      class="certi"
+                      href="https://coursera.org/share/fd424804b4dea29b13919fdc478a23fb"
+                      target="_blank"
+                      >View Certificate</a
+                    >
+                  </p>
                 </div>
               </article>
               <article>
@@ -240,7 +270,14 @@
                 />
                 <div>
                   <h3>Databases for Back-End Development</h3>
-                  <p><a class="certi" href="https://coursera.org/share/0aaa355dbc214b831da5ace5ca9647c7">View Certificate</a></p>
+                  <p>
+                    <a
+                      class="certi"
+                      href="https://coursera.org/share/0aaa355dbc214b831da5ace5ca9647c7"
+                      target="_blank"
+                      >View Certificate</a
+                    >
+                  </p>
                 </div>
               </article>
               <article>
@@ -251,20 +288,31 @@
                 />
                 <div>
                   <h3>Version Control</h3>
-                  <p><a class="certi" href="https://coursera.org/share/9b639f6ebc211d171b25123b82ff0bc9">View Certificate</a></p>
+                  <p>
+                    <a
+                      class="certi"
+                      href="https://coursera.org/share/9b639f6ebc211d171b25123b82ff0bc9"
+                      target="_blank"
+                      >View Certificate</a
+                    >
+                  </p>
+                  
                 </div>
+                
               </article>
+              
             </div>
+            
           </div>
+          
         </div>
+        
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+      <img src="./assets/arrow.png" alt="" class="icon" style="position: absolute; right: 5rem;" onclick="location.href='./#projects'">
     </section>
+
+   
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -278,17 +326,19 @@
                 class="project-img"
               />
             </div> -->
-            <h2 class="experience-sub-title project-title">Basic CRM Project</h2>
+            <h2 class="experience-sub-title project-title">
+              Basic CRM Project
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Itsvenkey/crm-application'"
+                onclick="window.open('https://github.com/Itsvenkey/crm-application','_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='http://itsvenkey.pythonanywhere.com/'"
+                onclick="window.open('https://itsvenkey.pythonanywhere.com/','_blank')"
               >
                 Live Demo
               </button>
@@ -351,6 +401,9 @@
         onclick="location.href='./#contact'"
       />
     </section>
+
+    <br /><br /><br />
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -369,16 +422,72 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/itsvenkey">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/itsvenkey" target="_blank">LinkedIn</a></p>
         </div>
       </div>
+
+      <div
+        class="contact-info-upper-container"
+        style="padding-left: 50px; padding-right: 50px"
+      >
+        <form
+          id="myForm"
+          action="https://formspree.io/f/mleqrkyr"
+          method="POST"
+          class="contact-info-container"
+          style="display: flex; flex-direction: column"
+        >
+          <h2 class="text-capitalize project-title experience-sub-title">
+            Drop me a line
+          </h2>
+          <div class="input-group" style="margin-bottom: 10px">
+            <input
+              required
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="text-center rounded-4 form-control border-3"
+            />
+          </div>
+          <div class="input-group" style="margin-bottom: 10px">
+            <input
+              required
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="text-center rounded-4 form-control border-3"
+            />
+          </div>
+
+          <div class="input-group" style="margin-bottom: 10px">
+            <textarea
+              name="message"
+              rows="4"
+              class="form-control rounded-4 border-3 text-center"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Your other form fields go here -->
+          <button
+            class="btn border border-3 rounded-4 btn-color-1 border-black"
+            style="width: 100%"
+            type="submit"
+          >
+            Send
+          </button>
+        </form>
+      </div>
     </section>
+    <!-- 
+<br><br><br><br> -->
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#qualifications">Skills & Certifications</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>

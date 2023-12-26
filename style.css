@@ -256,7 +256,8 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: white;
+  border-color: black;
 }
 
 .btn-color-2 {
@@ -396,7 +397,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact-info-upper-container {
