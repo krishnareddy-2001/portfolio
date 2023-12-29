@@ -48,7 +48,7 @@ nav {
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
+  /* text-decoration-color: white; */
 }
 
 a:hover {
@@ -63,6 +63,7 @@ a:hover {
     color:grey;
     text-decoration: none;
     text-decoration-color: white;
+  
 }
 
 .certi:hover{
